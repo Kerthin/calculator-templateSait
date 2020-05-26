@@ -1,0 +1,72 @@
+.buttonWrap {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+
+	&__row {
+		width: 100%;
+	}
+}
+
+.button {
+	display: block;
+	float: left;
+    margin-left: 30.6px;
+    margin-bottom: 30.6px;
+    width: 98px;
+    height: 98px;
+    border-radius: 30px;
+	cursor: pointer;
+	background-color: #f2f3f7;
+	color: #000;
+    line-height: 1.9;
+    text-align: center;
+    font-size: 50px;
+    font-family: sans-serif;
+    box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.1),
+                -6px -6px 10px -1px rgba(255,255,255,0.7);
+    border: 1px solid rgba(0,0,0,0.0);
+    background-repeat: no-repeat;
+    background-size: 35%;
+    background-position: center;
+
+    &._double {
+		padding-left: 35px;
+		width: 226.6px;
+		text-align: left;
+	}
+
+	&[action="clear"] {
+		color: #676d80;
+	}
+	&[action="negate"] {
+		background-image: url('../image/negate.png');
+	}
+	&[action="percent"] {
+		background-image: url('../image/percent.png');
+	}
+	&[action="divide"] {
+		background-image: url('../image/divide.png');
+	}
+	&[action="multiplication"] {
+		background-image: url('../image/multiplication.png');
+	}
+	&[action="minus"] {
+		background-image: url('../image/minus.png');
+	}
+	&[action="plus"] {
+		background-image: url('../image/plus.png');
+	}
+	&[action="equality"] {
+		background-image: url('../image/equality.png');
+	}
+
+    &:active {
+		box-shadow: inset 4px 4px 6px -1px rgba(0,0,0,0.2),
+					inset -4px -4px 6px -1px rgba(255,255,255,0.7),
+					-0.5px -0.5px 0 rgba(255,255,255,1),
+					0.5px 0.5px 0 rgba(0,0,0,0.15),
+					0px 12px 10px -10px rgba(0,0,0,0.05);
+		border: 1px solid rgba(0,0,0,0.01);
+	}
+}

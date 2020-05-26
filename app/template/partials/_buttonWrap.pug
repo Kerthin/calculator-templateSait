@@ -1,0 +1,27 @@
+mixin buttonMix(buttonType, actionName, buttonName)
+	.button(class=`_${buttonType}` action=`${actionName}`) #{buttonName}
+.buttonWrap
+	.buttonWrap__row
+		+buttonMix('action', 'clear', 'AC')
+		+buttonMix('action', 'negate')
+		+buttonMix('action', 'percent')
+		+buttonMix('action', 'divide')
+	.buttonWrap__row
+		+buttonMix('number', '', '7')
+		+buttonMix('number', '', '8')
+		+buttonMix('number', '', '9')
+		+buttonMix('action', 'multiplication')
+	.buttonWrap__row
+		+buttonMix('number', '', '4')
+		+buttonMix('number', '', '5')
+		+buttonMix('number', '', '6')
+		+buttonMix('action', 'minus')
+	.buttonWrap__row
+		+buttonMix('number', '', '1')
+		+buttonMix('number', '', '2')
+		+buttonMix('number', '', '3')
+		+buttonMix('action', 'plus')
+	.buttonWrap__row
+		+buttonMix('number _double', '', '0')
+		+buttonMix('action', 'point', '.')
+		+buttonMix('action', 'equality')
