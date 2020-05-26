@@ -53,3 +53,4 @@ document.querySelector("._action[action=clear]").onclick = function (event) {
     while (buffer.length)
         buffer.pop();
 };
+document.querySelector("._action[action=negate]").onclick = function (event) { return result.value = -parseFloat(result.value, 10); };

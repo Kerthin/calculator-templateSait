@@ -63,3 +63,5 @@ document.querySelector("._action[action=clear]").onclick = event => {
   result.value = ""
   while (buffer.length) buffer.pop()
 }
+
+document.querySelector("._action[action=negate]").onclick = event => result.value = -parseFloat(result.value, 10)
