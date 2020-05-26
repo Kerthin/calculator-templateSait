@@ -104,7 +104,7 @@ gulp.task('dist',	[
 	'html:dist'		,
 	'style:dist'	,
 	'js:dist'		,
-	// 'image:dist'	,
+	'image:dist'	,
 	'fonts:dist'
 ]);
 
@@ -127,7 +127,16 @@ gulp.task('watch',	function()	{
 });
 
 gulp.task('webserver',	function()	{
-	browserSync(config);
+	browserSync({
+		server: { baseDir: "./dist" },
+		tunnel: false,
+		host: 'localhost',
+		port: 3000,
+		open: true,
+		logLevel: "silent",
+		notify: false,
+		logLevel: "info"
+	});
 });
 
 gulp.task('clean',		function(cb)	{
