@@ -3,7 +3,7 @@
 <p align="center">
   <a href="#"><img src="https://img.shields.io/badge/build-passing-brightgreen.svg" alt="Build Status"></a>
   <a href="#"><img src="https://img.shields.io/badge/completion-20%25-orange.svg" alt="completion Status"></a>
-  <a href="#"><img src="https://img.shields.io/badge/npm-v6.14.4-blue.svg" alt="Version"></a> <br>
+  <a href="#"><img src="https://img.shields.io/badge/npm-v6.14.4-blue.svg" alt="Version"></a> <br/>
   <a href="#"><img src="https://img.shields.io/badge/node-v10.16.0-blue.svg" alt="Version"></a>
   <a href="#"><img src="https://img.shields.io/badge/repo%20size-0.7%20MB-green.svg" alt="Size"></a>
   <a href="#"><img src="https://img.shields.io/badge/project%20version-v1-blue.svg" alt="Version"></a>
@@ -196,10 +196,10 @@ The image of the website:
 
 #### Gif
 
-  - Calculation
+  - Calculation <br/>
   <a href="#"><img src="READMEimage/calculation.gif" /></a>
 
-  - Dark Theme
+  - Dark Theme <br/>
   <a href="#"><img src="READMEimage/darkTheme.gif" /></a>
 
 #### Desktop
