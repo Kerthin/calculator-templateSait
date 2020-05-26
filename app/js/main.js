@@ -44,3 +44,12 @@ for (var _i = 0, _a = ["plus", "minus", "multiplication", "divide", "percent"]; 
     var actionName = _a[_i];
     document.querySelector("._action[action=" + actionName + "]").onclick = opCallback(actionName);
 }
+document.querySelector("._action[action=equality]").onclick = function (event) {
+    buffer.push({ type: "value", value: parseFloat(result.value, 10) });
+    result.value = evaluate(buffer).toString();
+};
+document.querySelector("._action[action=clear]").onclick = function (event) {
+    result.value = "";
+    while (buffer.length)
+        buffer.pop();
+};

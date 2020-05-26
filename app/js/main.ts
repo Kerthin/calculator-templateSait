@@ -53,3 +53,13 @@ const opCallback = actionName =>
 for (const actionName of [ "plus", "minus", "multiplication", "divide", "percent" ]) {
   document.querySelector(`._action[action=${actionName}]`).onclick = opCallback(actionName)
 }
+
+document.querySelector("._action[action=equality]").onclick = event => {
+  buffer.push({ type: "value", value: parseFloat(result.value, 10) })
+  result.value = evaluate(buffer).toString()
+}
+
+document.querySelector("._action[action=clear]").onclick = event => {
+  result.value = ""
+  while (buffer.length) buffer.pop()
+}
