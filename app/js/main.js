@@ -54,3 +54,4 @@ document.querySelector("._action[action=clear]").onclick = function (event) {
         buffer.pop();
 };
 document.querySelector("._action[action=negate]").onclick = function (event) { return result.value = -parseFloat(result.value, 10); };
+document.querySelector("._action[action=point]").onclick = function (event) { return result.value = parseFloat(result.value) + '.'; };
