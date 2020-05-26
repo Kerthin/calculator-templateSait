@@ -3,12 +3,10 @@
 <p align="center">
   <a href="#"><img src="https://img.shields.io/badge/build-passing-brightgreen.svg" alt="Build Status"></a>
   <a href="#"><img src="https://img.shields.io/badge/completion-20%25-orange.svg" alt="completion Status"></a>
-  <a href="#"><img src="https://img.shields.io/badge/npm-v6.4.0-blue.svg" alt="Version"></a>
-  <a href="#"><img src="https://img.shields.io/badge/node-v9.4.0-blue.svg" alt="Version"></a>
-  <a href="#"><img src="https://img.shields.io/badge/bower-v1.8.4-blue.svg" alt="Version"></a> <br>
-  <a href="#"><img src="https://img.shields.io/badge/repo%20size-440.8%20MB-green.svg" alt="Size"></a>
-  <a href="#"><img src="https://img.shields.io/badge/minified%20repo-20%20MB-green.svg" alt="Size"></a>
-  <a href="#"><img src="https://img.shields.io/badge/project%20version-v0.2-blue.svg" alt="Version"></a>
+  <a href="#"><img src="https://img.shields.io/badge/npm-v6.14.4-blue.svg" alt="Version"></a> <br>
+  <a href="#"><img src="https://img.shields.io/badge/node-v10.16.0-blue.svg" alt="Version"></a>
+  <a href="#"><img src="https://img.shields.io/badge/repo%20size-0.7%20MB-green.svg" alt="Size"></a>
+  <a href="#"><img src="https://img.shields.io/badge/project%20version-v1-blue.svg" alt="Version"></a>
 </p>
 
 <h2 align="center">Description</h2>
@@ -55,16 +53,6 @@ The following technologies were used to create this project:
   </a>
 </p>
 <!--Preprocessors end-->
-
-<h3 align="center">Libraries</h3>
-
-<!--Libraries-->
-<p align="center">
-  <a href="#">
-    <img width="260px" src="READMEimage/jquery-1.svg">
-  </a>
-</p>
-<!--Libraries end-->
 
 <h3 align="center">Package manager</h4>
 
@@ -208,29 +196,17 @@ The image of the website:
 
 #### Gif
 
-  - Desktop swiper
-  <a href="#"><img src="READMEimage/deskSwipe.gif" /></a>
+  - Calculation
+  <a href="#"><img src="READMEimage/calculation.gif" /></a>
 
-  - Icon drag effect
-  <a href="#"><img src="READMEimage/iconDragEffect.gif" /></a>
-
-  - Background image choise
-  <a href="#"><img src="READMEimage/bgImgChoise.gif" /></a>
-
-  - Open app animation
-  <a href="#"><img src="READMEimage/appLinks.gif" /></a>
-
-  - Fullscreen buttons
-  <a href="#"><img src="READMEimage/fullscreenButtons.gif" /></a>
-
-  - Delete app name
-  <a href="#"><img src="READMEimage/deleteAppName.gif" /></a>
+  - Dark Theme
+  <a href="#"><img src="READMEimage/darkTheme.gif" /></a>
 
 #### Desktop
-<a href="#"><img src="READMEimage/webOSDesktop.png" /></a>
+<a href="#"><img src="READMEimage/desktop.png" /></a>
 
 #### Tablet
-<a href="#"><img src="READMEimage/webOSTablet.png" /></a>
+<a href="#"><img src="READMEimage/tablet.png" /></a>
 
 #### Phone
-<a href="#"><img src="READMEimage/webOSPhone.png" /></a>
+<a href="#"><img src="READMEimage/phone.png" /></a>
