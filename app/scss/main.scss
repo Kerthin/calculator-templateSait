@@ -15,7 +15,8 @@
 .container {
 	width: 100%;
 	height: 100vh;
-	background-color: #5e6b7e;
+	background: linear-gradient(45deg,#FBCA88,#EF69AD);
+
 }
 
 @import 'partials/_dark.scss';
@@ -29,6 +30,7 @@
 	transform: translate(-50%, -50%);
 	border-radius: 50px;
 	background-color: #f2f3f7;
+	box-shadow: 0 3px 6px rgba(0,0,0,.16), 0 3px 6px rgba(0,0,0,.23);
 	overflow: hidden;
 }
 
