@@ -11,26 +11,26 @@
 .button {
 	display: block;
 	float: left;
-    margin-left: 30.6px;
-    margin-bottom: 30.6px;
-    width: 98px;
-    height: 98px;
-    border-radius: 30px;
+	margin-left: 30.6px;
+	margin-bottom: 30.6px;
+	width: 98px;
+	height: 98px;
+	border-radius: 30px;
 	cursor: pointer;
 	background-color: #f2f3f7;
 	color: #000;
-    line-height: 1.9;
-    text-align: center;
-    font-size: 50px;
-    font-family: sans-serif;
-    box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.1),
-                -6px -6px 10px -1px rgba(255,255,255,0.7);
-    border: 1px solid rgba(0,0,0,0.0);
-    background-repeat: no-repeat;
-    background-size: 35%;
-    background-position: center;
+	line-height: 1.9;
+	text-align: center;
+	font-size: 50px;
+	font-family: sans-serif;
+	box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.1),
+							-6px -6px 10px -1px rgba(255,255,255,0.7);
+	border: 1px solid rgba(0,0,0,0.0);
+	background-repeat: no-repeat;
+	background-size: 35%;
+	background-position: center;
 
-    &._double {
+	&._double {
 		padding-left: 35px;
 		width: 226.6px;
 		text-align: left;
@@ -61,7 +61,7 @@
 		background-image: url('../image/equality.png');
 	}
 
-    &:active {
+	&:active {
 		box-shadow: inset 4px 4px 6px -1px rgba(0,0,0,0.2),
 					inset -4px -4px 6px -1px rgba(255,255,255,0.7),
 					-0.5px -0.5px 0 rgba(255,255,255,1),
