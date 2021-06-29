@@ -1,10 +1,33 @@
 .darkButton {
 	position: absolute;
+	top: 20px;
+	left: 20px;
 	width: 50px;
-	height: 50px;
-	background-color: pink;
+	height: 26px;
+	border-radius: 50px;
+	background-color: #f2f3f7;
 }
-.container.dark {
+.darkButton__indicator {
+	position: absolute;
+	top: 2px;
+	left: 2px;
+	width: 22px;
+	height: 22px;
+	border-radius: 50px;
+	background-color: #facf6f;
+	transition: all .3s;
+}
+
+.darkButton.darkButton_dark {
+	background-color: #283245;
+
+	.darkButton__indicator {
+		left: 26px;
+		background-color: #f2f3f7;
+	}
+}
+
+.container.container_dark {
 	background: linear-gradient(45deg,#476892,#59355D);
 
 		.calculator {

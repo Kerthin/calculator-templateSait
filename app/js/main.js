@@ -5,7 +5,8 @@ var themeButton = document.querySelector('.darkButton');
 themeButton.addEventListener(
 	"click",
 	function (i) {
-		container.classList.toggle("dark");
+		this.classList.toggle("darkButton_dark");
+		container.classList.toggle("container_dark");
 	}
 );
 
