@@ -1,0 +1,28 @@
+@media screen and (max-width: 545px) {
+	.calculator {
+		width: 375px;
+		height: 564px;
+	}
+	.inputWrap {
+		top: 28px;
+
+		&__result {
+			height: 69px;
+			padding: 0 20.6px;
+			font-size: 62px;
+		}
+	}
+	.button {
+		font-size: 35px;
+	    margin-left: 20.6px;
+	    margin-bottom: 20.6px;
+	    width: 68px;
+	    height: 68px;
+	    border-radius: 20px;
+
+	    &._double {
+			padding-left: 24px;
+			width: 156.6px;
+		}
+	}
+}

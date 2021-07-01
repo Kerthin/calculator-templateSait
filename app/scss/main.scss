@@ -1,3 +1,18 @@
+/*____________________________________________________________
+
+# Auxiliary styles
+# @import Main Page Styles
+	## @import _dark.scss
+	## @import _calculator.scss
+	## @import _inputWrap.scss
+	## @import _buttonWrap.scss
+# @media
+
+____________________________________________________________*/
+
+/*____________________________________________________________
+# Auxiliary styles
+____________________________________________________________*/
 * {
 	padding: 0;
 	margin: 0;
@@ -15,56 +30,30 @@
 	background: linear-gradient(45deg,#FBCA88,#EF69AD);
 }
 
+/*____________________________________________________________
+# @import Main Page Styles
+____________________________________________________________*/
+/*____________________________________________________________
+## @import _dark.scss
+____________________________________________________________*/
 @import 'partials/_dark.scss';
 
-.calculator {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	width: 545px;
-	height: 817px;
-	transform: translate(-50%, -50%);
-	border-radius: 50px;
-	background-color: #f2f3f7;
-	box-shadow: 0 3px 6px rgba(0,0,0,.16), 0 3px 6px rgba(0,0,0,.23);
-	overflow: hidden;
-}
+/*____________________________________________________________
+## @import _calculator.scss
+____________________________________________________________*/
+@import 'partials/_calculator.scss';
 
+/*____________________________________________________________
+## @import _inputWrap.scss
+____________________________________________________________*/
 @import 'partials/_inputWrap.scss';
+
+/*____________________________________________________________
+## @import _buttonWrap.scss
+____________________________________________________________*/
 @import 'partials/_buttonWrap.scss';
 
-@media screen and (max-width: 545px) {
-	.calculator {
-		width: 375px;
-		height: 564px;
-	}
-	.inputWrap {
-		top: 28px;
-
-		&__result {
-			height: 69px;
-			padding: 0 20.6px;
-			font-size: 62px;
-		}
-	}
-	.button {
-		font-size: 35px;
-	    margin-left: 20.6px;
-	    margin-bottom: 20.6px;
-	    width: 68px;
-	    height: 68px;
-	    border-radius: 20px;
-
-	    &._double {
-			padding-left: 24px;
-			width: 156.6px;
-		}
-	}
-}
-@media screen and (max-width: 375px) {
-	.calculator {
-		width: 100%;
-		height: 100%;
-		border-radius: 0;
-	}
-}
+/*____________________________________________________________
+# @media
+____________________________________________________________*/
+@import 'partials/_mediaQueriesPack.scss';
