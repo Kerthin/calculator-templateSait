@@ -197,16 +197,18 @@ The image of the website:
 #### Gif
 
   - Calculation <br/>
-  <a href="#"><img src="READMEimage/calculation.gif" /></a>
+  <a href="#"><img src="https://media.giphy.com/media/7Pe37n2eB0lC03ZouU/giphy.gif" /></a>
 
   - Dark Theme <br/>
-  <a href="#"><img src="READMEimage/darkTheme.gif" /></a>
+  <a href="#"><img src="https://media.giphy.com/media/FDmQNyl8tEzEYpDwFh/giphy.gif" /></a>
 
 #### Desktop
 <a href="#"><img src="READMEimage/desktop.png" /></a>
 
-#### Tablet
-<a href="#"><img src="READMEimage/tablet.png" /></a>
-
 #### Phone
+
+  - `414px`
+  - `375px`
+  - `320px`
+
 <a href="#"><img src="READMEimage/phone.png" /></a>
