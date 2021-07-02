@@ -19,9 +19,15 @@ ____________________________________________________________*/
 	outline: none;
 	box-sizing: border-box;
 	user-select: none;
+	-webkit-tap-highlight-color: transparent;
 }
 ::-webkit-scrollbar {
 	width: 0;
+}
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
 }
 
 .container {
