@@ -31,39 +31,38 @@
 .container.container_dark {
 	background: linear-gradient(45deg,#476892,#59355D);
 
-		.calculator {
-			background-color: #283245;
+	.calculator {
+		background-color: #283245;
 
-			.inputWrap__result {
-				color: #f2f3f7;
-			}
-
-			.button {
-				background-color: #283245;
-
-				color: #f2f3f7;
-				box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.2),
-							-6px -6px 10px -1px rgba(255,255,255,0.05);
-
-				&[action="clear"] {
-					color: #a9aeb3;
-				}
-				&[action="negate"] {
-					background-image: url('../image/negate_dark.png');
-				}
-				&[action="percent"] {
-					background-image: url('../image/percent_dark.png');
-				}
-
-				&:active {
-					box-shadow: inset 4px 4px 6px -1px rgba(0,0,0,0.2),
-								inset -4px -4px 6px -1px rgba(255,255,255,0.05),
-								-0.5px -0.5px 0 rgba(0,0,0,0.1),
-								0.5px 0.5px 0 rgba(0,0,0,0.15),
-								0px 12px 10px -10px rgba(0,0,0,0.05);
-					border: 1px solid rgba(0,0,0,0.01);
-				}
-			}
+		.inputWrap__result {
+			color: #f2f3f7;
 		}
 
+		.button {
+			background-color: #283245;
+
+			color: #f2f3f7;
+			box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.2),
+						-6px -6px 10px -1px rgba(255,255,255,0.05);
+
+			&[action="clear"] {
+				color: #a9aeb3;
+			}
+			&[action="negate"] {
+				background-image: url('../image/negate_dark.png');
+			}
+			&[action="percent"] {
+				background-image: url('../image/percent_dark.png');
+			}
+
+			&:active {
+				box-shadow: inset 4px 4px 6px -1px rgba(0,0,0,0.2),
+							inset -4px -4px 6px -1px rgba(255,255,255,0.05),
+							-0.5px -0.5px 0 rgba(0,0,0,0.1),
+							0.5px 0.5px 0 rgba(0,0,0,0.15),
+							0px 12px 10px -10px rgba(0,0,0,0.05);
+				border: 1px solid rgba(0,0,0,0.01);
+			}
+		}
+	}
 }
